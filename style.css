@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- ==============================================css for first js=================================== --> */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(251, 255, 1);
+}
+.container p{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+.btnDiv{
+    display: flex;
+    padding: 2rem;
+}
+.btnDiv button{
+    padding: .5rem 1rem .5rem 1rem;
+    margin: 0 1rem 0 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+}
+.btnDiv button:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
+.animation{
+    border: 20px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 20px solid black;
+    height: 200px;
+    width: 200px;
+    animation: spin 2s linear infinite;
+    margin: 2rem;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* <!-- =======================================css for second js=================================== --> */
+
+#sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: lawngreen;
+    height: 100vh;
+    width: 100%;
+}
+.sec2div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.changebg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 600;
+    font-size: 2.5rem;
+    background-color:rgb(146, 127, 127);
+    height: 20rem;
+    width: 95%;
+}
+#sec2 button{
+    margin: 2rem;
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+}
+#sec2 button:hover{
+    background-color: gray;
+    color: whitesmoke;
+}
+
+/* <!-- =======================================css for third js=================================== --> */
+
+.sec3{
+    background-color: khaki;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 100vh;
+    width: 100%;
+}
+.mousehover{
+    margin: 1rem 2rem;
+    background-color: greenyellow;
+}
+.mousehover p{
+    border: 3px solid black;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: .5rem;
+}
+p{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* <!-- =======================================css for fourth js=================================== --> */
+
+
+.sec4{
+    text-align: left;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orchid;
+}
+.sec4 p{
+    text-align: left;
+    margin:1rem;
+}
+.sec4 select{
+    margin:1rem;
+}
+.sec4 #html{
+    display: none;
+    margin:1rem;
+}
+
+.sec4 button{
+    margin: 2rem;
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+}
+.sec4 button:hover{
+    background-color: gray;
+    color: whitesmoke;
+}

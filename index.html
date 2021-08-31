@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript-ideas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- =====================================================sec1=================================== -->
+
+    <div class="container">
+        <p>this is an animation <br>and <br>you can change the speed of this animation by pressing the buttons below!</p>
+        <div class="animation" id="anime"></div>
+        <div class="btnDiv">
+            <button onclick="defaulT()">default</button>
+            <button onclick="gear1()">Gear-1</button>
+            <button onclick="gear2()">Gear-2</button>
+            <button onclick="gear3()">Gear-3</button>
+            <button onclick="gear4()">Gear-4</button>
+            <button onclick="gear5()">Gear-5</button>
+
+        </div>
+    </div>
+    <hr>
+
+<!-- =====================================================sec2=================================== -->
+
+        <section id="sec2">
+            <p  class="changebg" onclick="myfunc(this) " id="demo">click any where in this box to change the background color of this box</p> 
+            <div class="sec2div"> 
+            <button onclick="btn1()">Hide div</button>
+            <button onclick="btn2()">Show div</button>
+            </div>
+        </section>
+        <hr>
+
+<!-- =====================================================sec 3=================================== -->
+        <section class="sec3">
+            <p>put Your cursor in the box below to increase the size of the text!</p>
+            <div class="mousehover">
+                <p id="demo2">in this box a mouseover property is used which makes the text inside the box big.</p>
+            </div>
+        </section>
+        <hr>
+
+<!-- =====================================================sec 4=================================== -->
+        <section class="sec4">
+            <p>select any skill </p>
+            <select name="skill" id="skill">
+                <option value="html">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JAVASCRIPT">JAVASCRIPT</option>
+                <option value="BOOTSTRAP">BOOTSTRAP</option>
+                <option value="NODEJS">NODEJS</option>
+                <option value="PHP">PHP</option>
+                <option value="REACT">REACT</option>
+                <option value="ANGULAR">ANGULAR</option>
+            </select>
+            <p id="html">i also like <span id="demo3"></span>  and their is so much to learn in this skill!</p>
+            <button onclick="btn10()">submit</button>
+        </section>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
